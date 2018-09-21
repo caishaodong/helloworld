@@ -29,7 +29,6 @@ public class DemoController {
 
         countDownLatch.countDown();
 
-
         return "success!";
     }
 
@@ -46,6 +45,11 @@ public class DemoController {
     @RequestMapping("/demo2")
     public String demo2() {
         return "demo2";
+    }
+
+    @RequestMapping("demo3")
+    public String demo3() {
+        return "demo3";
     }
 
 
