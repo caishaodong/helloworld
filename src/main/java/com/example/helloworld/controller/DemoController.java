@@ -53,4 +53,10 @@ public class DemoController {
     }
 
 
+    @RequestMapping("/demo4")
+    public String demo4() {
+        return "demo4";
+    }
+
+
 }
