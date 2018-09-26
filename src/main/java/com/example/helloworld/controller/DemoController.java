@@ -57,9 +57,14 @@ public class DemoController {
         return "demo4";
     }
 
-    @RequestMapping("demo5")
+    @RequestMapping("/demo5")
     public String demo5() {
         return "demo5";
+    }
+
+    @RequestMapping("/demo6")
+    public String demo6() {
+        return "demo6";
     }
 
 
