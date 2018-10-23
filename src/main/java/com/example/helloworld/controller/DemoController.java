@@ -50,6 +50,7 @@ public class DemoController {
 
     @RequestMapping("demo3")
     public String demo3() {
+        String str = "demo3";
         return "demo3";
     }
 
