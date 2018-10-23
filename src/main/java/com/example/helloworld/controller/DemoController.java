@@ -44,6 +44,7 @@ public class DemoController {
 
     @RequestMapping("/demo2")
     public String demo2() {
+        String str = "demo2";
         return "demo2";
     }
 
