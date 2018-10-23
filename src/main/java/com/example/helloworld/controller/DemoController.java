@@ -77,5 +77,10 @@ public class DemoController {
         return "demo8";
     }
 
+    @RequestMapping("/demo10")
+    public String demo10() {
+        return "demo10";
+    }
+
 
 }
