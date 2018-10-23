@@ -56,6 +56,7 @@ public class DemoController {
 
     @RequestMapping("demo4")
     public String demo4() {
+        String str = "demo4";
         return "demo4";
     }
 
