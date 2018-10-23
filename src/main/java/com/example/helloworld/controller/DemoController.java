@@ -79,12 +79,12 @@ public class DemoController {
 
     @RequestMapping("/demo7")
     public String demo7() {
-        return "demo7";
+        return "demo7777";
     }
 
     @RequestMapping("/demo8")
     public String demo8() {
-        return "demo8";
+        return "demo8888";
     }
 
     @RequestMapping("/dmeo9")
