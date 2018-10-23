@@ -2,6 +2,7 @@ package com.example.helloworld.controller;
 
 import com.google.common.util.concurrent.RateLimiter;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.CountDownLatch;
@@ -65,6 +66,11 @@ public class DemoController {
     @RequestMapping("/demo6")
     public String demo6() {
         return "demo6";
+    }
+
+    @RequestMapping("/demo7")
+    public String demo7() {
+        return "demo7";
     }
 
 
