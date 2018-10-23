@@ -52,4 +52,11 @@ public class DemoController {
         return "demo3";
     }
 
+    @RequestMapping("demo4")
+    public String demo4() {
+        return "demo4";
+    }
+
+
+
 }
