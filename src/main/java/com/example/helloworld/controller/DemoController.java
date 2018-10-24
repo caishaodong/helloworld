@@ -61,5 +61,45 @@ public class DemoController {
     }
 
 
+    @RequestMapping("demo5")
+    public String demo5() {
+        String str = "demo5";
+        return "demo5";
+    }
+
+    @RequestMapping("demo6")
+    public String demo6() {
+        String str = "demo6";
+        return "demo6";
+    }
+
+    @RequestMapping("demo7")
+    public String demo7() {
+        String str = "demo7";
+        return "demo7";
+    }
+
+
+    @RequestMapping("demo8")
+    public String demo8() {
+        String str = "demo8";
+        return "demo8";
+    }
+
+    @RequestMapping("demo9")
+    public String demo9() {
+        String str = "demo9";
+        return "demo9";
+    }
+
+    @RequestMapping("demo10")
+    public String demo10() {
+        String str = "demo10";
+        return "demo10";
+    }
+
+
+
+
 
 }
