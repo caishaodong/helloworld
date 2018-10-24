@@ -100,6 +100,13 @@ public class DemoController {
     }
 
 
+    @RequestMapping("demo11")
+    public String demo11() {
+        String str = "demo11";
+        return "demo11";
+    }
+
+
 
 
 
