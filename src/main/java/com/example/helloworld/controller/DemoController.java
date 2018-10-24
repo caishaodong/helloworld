@@ -92,6 +92,12 @@ public class DemoController {
         return "demo9";
     }
 
+    @RequestMapping("demo10")
+    public String demo10() {
+        String str = "demo10";
+        return "demo10";
+    }
+
 
 
 
